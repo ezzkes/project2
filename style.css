@@ -1,0 +1,17 @@
+h3 {
+    font-size: 24px !important;
+}
+
+.btn-success :hover {
+    background-color: black;
+}
+
+canvas {
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 10px 10px 38px rgb(0, 0, 0);}
+    to {box-shadow: 10px 10px 38px yellow;}
+}
